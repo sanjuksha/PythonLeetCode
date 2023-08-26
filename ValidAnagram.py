@@ -28,3 +28,10 @@ if __name__ =="__main__":
     solution = Solution()
     result = solution.isAnagram(s,t)
     print(result)
+
+# Another Solution
+"""
+class Solution:
+    def isAnagram(self, s: str, t: str) -> bool:
+        return Counter(s) == Counter(t)
+"""
